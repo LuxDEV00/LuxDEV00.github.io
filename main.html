@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>QUIZ PARA PROGRAMADORES</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="um quiz interativo para testa seus
+    conhecimentos"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>quiz interativo para programadores</h1>
+      <p style="text-align: center; margin: 10px">
+        teste seus conhecimentos em programção e veja qual pontuaçao voce
+        consegue fazer !
+      </p>
+    </header>
+    <main>
+      <!--INTRODUÇAO-->
+      <section>
+        <h2>sobre esse quiz</h2>
+        <p>
+          <strong>esse quiz</strong> foi feito para testa seus conhecimentos
+          <br />
+          em
+          <em
+            ><abbr
+              title="linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software)."
+              >linguagem de programaçao</abbr
+            ></em
+          >
+          e muito mais.
+        </p>
+        <p>
+          aqui voce encotrara diferentes tipos de perguntas ate com multiplas
+          escolhas, <br />
+          textos,perguntas de datas. <br />
+          desafie-se com esse quiz!
+        </p>
+        <p>
+          aqui voce encontrara alguns acronicos, como
+          <abbr title="HypeText Markup Linguage">HTML</abbr> e
+          <abbr title="Cascading Style Sheets">CSS</abbr>, que sao comumente
+          <br />
+          usados em questoes relacionadas ao desenvolvimento web.
+        </p>
+      </section>
+      <!--PERGUNTA 1 MULTIPLA ESCOLHA-->
+      <section>
+        <h2>
+          pergunta 1: qual linguagem é usada para estruturar paginas web ?
+        </h2>
+        <form>
+          <input type="radio" value="Python" id="p1a" name="pergunta1" />
+          <label for="p1a">Python</label><br />
+          <input type="radio" value="Html" id="p2b" name="pergunta1" />
+          <label for="p2b">HTML</label><br />
+          <input type="radio" value="Css" id="p3c" name="pergunta1" />
+          <label for="p3c">CSS</label><br />
+          <input type="radio" value="Javascript" id="p4d" name="pergunta1" />
+          <label for="p4d">Javascript</label><br />
+        </form>
+      </section>
+      <!--PERGUNTA 2 FORMATO DE TEXTO-->
+      <section>
+        <h2>
+          perguta 2: na URL https://www.google.com o trecho "google.com" é o
+          _____
+        </h2>
+        <form>
+          <input
+            type="text"
+            name="pergunta2"
+            id="p2"
+            placeholder="digite sua resposta"
+          />
+        </form>
+      </section>
+      <!-- pergunta  3:SENHA -->
+      <section>
+        <h2>pergunta 3: escreva um exemplo de senha forte</h2>
+        <form>
+          <input
+            type="password"
+            name="pergunta3"
+            id="p3"
+            placeholder="digite uma senha"
+          />
+        </form>
+      </section>
+      <!-- pergunta 4: DATA -->
+      <section>
+        <h2>pergunta 4: em que ano o html lancou sua primeira versao</h2>
+        <form>
+          <input type="date" name="pergunta4" id="p4" />
+        </form>
+      </section>
+      <!-- pergunta 5: selecao multipla -->
+      <section>
+        <h2>
+          pergunta 5: quais dessas tecnologias sao consideradas linguagens de
+          programacao
+        </h2>
+        <form>
+          <input type="checkbox" name="pergunta5" id="p5a" value="javascript" />
+          <label for="p5a">javascript</label><br />
+          <input type="checkbox" name="pergunta5" id="p5b" value="html" />
+          <label for="p5b">html</label><br />
+          <input type="checkbox" name="pergunta5" id="p5c" value="css" />
+          <label for="p5c">css</label><br />
+          <input type="checkbox" name="pergunta5" id="p5d" value="java" />
+          <label for="p5d">java</label><br />
+        </form>
+      </section>
+      <!-- pergunta 6: upload de arquivo-->
+      <section>
+        <h2>pergunta 6: faca o upload de um arquivo contendo html</h2>
+        <form>
+          <input type="file" name="pergunta6" id="p6" />
+        </form>
+      </section>
+      <!-- pergunta 7: menu suspenso-->
+      <section>
+        <h2>pergunta 7: selecione o atributo do input que define o seu tipo</h2>
+        <form>
+          <select name="pergunta7" id="p7">
+            <option value="id">ID</option>
+            <option value="type">TYPE</option>
+            <option value="placeholder">PLACEHOLDER</option>
+          </select>
+        </form>
+      </section>
+      <!-- pergunta 8: imagem-->
+      <section>
+        <h2>
+          pergunta 8: qual linguagem de programacao e representada pela logotipo
+          abaixo
+        </h2>
+        <figure>
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/
+          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
+          AAAAAAAAAAAAAAAAAAAB/9k="
+            alt="logotipo de uma linguagem de programacao"
+          /><br />
+          <figcaption>
+            figura 1: logotipo de uma linguagem de programacao
+          </figcaption>
+        </figure>
+        <input
+          type="text"
+          name="pergunta8"
+          id="p8"
+          placeholder="digite a sua resposta aqui......"
+        />
+      </section>
+      <!-- tabela de pontuaçao -->
+      <section>
+        <h2>tabela de pontuaçao</h2>
+        <summary style="font-size: 20px">
+          veja a tabela de pontuaçao e saiba como voce se saiu
+        </summary>
+        <details style="font-size: 20px">
+          <table border="1" style="margin: 0 auto">
+            <thead>
+              <tr>
+                <th>pontuacao</th>
+                <th>avaliacao</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0-2</td>
+                <td>nao desista !</td>
+              </tr>
+              <tr>
+                <td>3-4</td>
+                <td>voce esta quase la !</td>
+              </tr>
+              <tr>
+                <td>5-6</td>
+                <td>parabens !</td>
+              </tr>
+              <tr>
+                <td>7-8</td>
+                <td>voce e um programador de verdade !</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2">boa sorte na proxima!!</td>
+              </tr>
+            </tfoot>
+          </table>
+        </details>
+      </section>
+      <!-- lista de respostas -->
+      <section>
+        <h2>verifique sua resposta</h2>
+        <details>
+          <summary style="font-size: 20px">
+            clique aqui para ver as respostas
+          </summary>
+          <ol>
+            <li>javascript</li>
+            <li>dominio</li>
+            <li>luan.soares00</li>
+            <li>1991</li>
+            <li>java, javascript</li>
+            <li>arquivo deve ter extensao .html</li>
+            <li>type</li>
+            <li>python</li>
+          </ol>
+        </details>
+      </section>
+      <!-- formulario de feedback -->
+      <section>
+        <h2>nos de sua opnião</h2>
+        <form>
+          <fieldset>
+            <legend>infomações de contato</legend>
+            <label for="nome">nome:</label>
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="  NOME..."
+            /><br />
+            <label for="email">email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="EMAIL..."
+            /><br />
+            <label for="comentarios">comentarios:</label><br />
+            <textarea
+              id="comentarios"
+              name="comentarios"
+              rows="4"
+              cols="50"
+              placeholder="digite sues comentarios aqui..."
+            ></textarea
+            ><br />
+            <button type="submit">enviar seu feedback</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="paragrafo-footer">
+        &copy;Quiz de programadores. todos os direitos reservados. 2025
+      </p>
+      <p class="paragrafo-footer">
+        meu canal
+        <a
+          href="https://www.youtube.com/@lux_gaming"
+          style="color: black; font-size: 1.5rem"
+          >clica ai</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    font-weight: 400;
+    background: linear-gradient(azure, lightblue);
+    font-family: cursive;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+header {
+    border-bottom: solid 1px rgb(104, 80, 48);
+    margin-bottom: 80px;
+    background: linear-gradient(lightblue, rgb(241, 220, 224));
+    padding: 4rem;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+    background-color: whitesmoke;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid groove;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    text-align: left;
+    accent-color: pink;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid rgb(194, 186, 196);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+select {
+    cursor: pointer;
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid rgb(194, 186, 196);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+option {
+    cursor: pointer;
+    background-color: pink;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid rgb(194, 186, 196);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid rgb(194, 186, 196);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    max-width: 40%;
+    font-size: 1.0rem;
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+img {
+    width: 15rem;
+    height: auto;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(39, 21, 0);
+}
+
+h2 {
+    color: rgb(104, 80, 48);
+}
+
+li {
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding: 0.8rem;
+    background-color: azure;
+    color: rgb(104, 80, 48);
+}
+
+td {
+    color: rgb(104, 80, 48);
+    padding: 1rem;
+}
+
+tfoot td {
+    background-color: royalblue;
+    color: white;
+}
+
+details {
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 5px;
+    padding: 1rem;
+    background-color: azure;
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+ol {
+    margin-left: 4rem;
+}
+
+ol,
+li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: solid 2px rgb(104, 80, 48);
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    color: rgb(104, 80, 48);
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid rgb(194, 186, 196);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+footer {
+    background-color: rgb(104, 80, 48);
+    padding: 2rem;
+}
+
+.paragrafo-footer {
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.5rem
+}
